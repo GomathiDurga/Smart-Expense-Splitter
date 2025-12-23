@@ -259,9 +259,7 @@ HTML = """
         </div>
         {% endfor %}
       </div>
-      <div class="totals">
-        <p><strong>Check:</strong> Sum of rounded shares = ₹{{ rounded_sum }} (must equal final bill ₹{{ final_total }}).</p>
-      </div>
+      
     </div>
     {% endif %}
   </div>
@@ -351,4 +349,5 @@ def index():
 if __name__ == "__main__":
     print("🚀 Smart Expense Splitter running on http://127.0.0.1:5000")
     app.run(debug=True)
+
 
