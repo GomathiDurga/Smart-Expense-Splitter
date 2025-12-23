@@ -10,3 +10,4 @@ A tiny Python + Flask web app that **fairly splits discounted group orders** (In
 
 ## Run locally
 https://smart-expense-splitter-etuz.onrender.com
+
