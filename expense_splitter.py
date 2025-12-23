@@ -209,7 +209,7 @@ HTML = """
       <input type="number" step="0.01" name="final_total" value="{{ final_total or '' }}" placeholder="e.g. 420" required>
 
       <div class="inline">
-        <span>💡 Everyone's share is proportional to their original order. Rounded shares are adjusted so the total still equals the final bill.</span>
+        <span>💡 Everyone's share is proportional to their original order.</span>
       </div>
 
       {% if count %}
@@ -351,3 +351,4 @@ def index():
 if __name__ == "__main__":
     print("🚀 Smart Expense Splitter running on http://127.0.0.1:5000")
     app.run(debug=True)
+
